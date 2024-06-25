@@ -5,8 +5,14 @@
 
 需要你自己搭建更新服务器（如Nginx）。
 
-将`main.bat`内的示例代码中的`set ip=`后面的部分改成你的服务器地址。
+将`main.bat`内的示例代码中的`set ip=http://127.0.0.1`后面的部分改成你的服务器地址。
 
 `Server_environment`是我测试用的一个示例服务器目录。
 
 代码里有注释，可以自行阅读代码进行使用。
+
+A batch script based implementation for connecting to remote servers and automatically downloading updates
+You need to build your own update server (such as Nginx)
+Set the IP address in the example code in "main.bat" set ip=http://127.0.0.1 Change to your server address
+"Server_environment" is an example server directory that I used for testing
+There are comments in the code that can be read and consumed by oneself
