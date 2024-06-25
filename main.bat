@@ -108,12 +108,6 @@ title Bat Update Sever Test
       set "number=%%a"
           rem Check whether the update of this version has been made
           rem This is a statement used to detect whether this update has been performed before
-          rem This "if not exist" statement has a bug.
-          rem When a .bat already exists,although it has been detected,it will still execute the contents in the brackets behind it
-          rem I can't troubleshoot the problem,even if T try to solve it with ChatGPT-4o.
-          rem This may be due to the logical error of the Batch language itself,because I think it is a low-level language
-          rem But it may also be my own grammar problem,after all my Batch level is too poor. HAHA : )
-          rem If you know what caused this error,please come to Github warehouse to submit the Issue,and I will thank you very much for answering my confusion!!
         if exist !tempdir!\sendup\!number!.bat (
           rem Here is download update required(in .bat format),you need to build your own server
           rem You can download other files you need again in the updated .bat file,such as:
